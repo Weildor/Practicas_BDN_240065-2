@@ -3,6 +3,7 @@
 #### Docente: M.T.I.  Marco A. Ramírez Hernández
 
 --- 
+Autor: Victor Dorian Barrios Franco
 
 ###  Tabla de Prácticas de la Materia
 

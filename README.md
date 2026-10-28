@@ -9,6 +9,8 @@ Grado y grupo: 7°B
 
 Estado: Medio
 
+Correccion: .env
+
 ###  Tabla de Prácticas de la Materia
 
 |No.| Nombre | Descripción | Potenciador | Estatus |

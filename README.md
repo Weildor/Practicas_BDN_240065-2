@@ -7,6 +7,8 @@ Autor: Victor Dorian Barrios Franco
 
 Grado y grupo: 7°B
 
+Estado: Medio
+
 ###  Tabla de Prácticas de la Materia
 
 |No.| Nombre | Descripción | Potenciador | Estatus |

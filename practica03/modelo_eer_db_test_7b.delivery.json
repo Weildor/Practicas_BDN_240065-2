@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "6f5b8b5c-613c-4758-b0b0-9242ae076797",
+  "status": "current",
+  "command": "deliver",
+  "type": "erd",
+  "input": "C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Optativa I Bases de datos en la nube\\Correccion de la rama\\Practicas_BDN_240065-2\\practica03\\modelo_eer_db_test_7b.archify.json",
+  "output": "C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Optativa I Bases de datos en la nube\\Correccion de la rama\\Practicas_BDN_240065-2\\practica03\\modelo_eer_db_test_7b.html",
+  "specification": {
+    "sha256": "f52cc7764fe45cbfd75977cd02fb420d1913884459face3e328753d0e87b4f32",
+    "bytes": 37495
+  },
+  "artifact": {
+    "sha256": "248f17ec4dc20d44356dcda94d11147252e9426fe335309bd4c4976fcb57c3c7",
+    "bytes": 986388
+  }
+}

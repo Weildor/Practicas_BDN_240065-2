@@ -9,7 +9,7 @@ Grado y grupo: 7°B
 
 Estado: Medio
 
-Correccion: .env
+Clima: Soleado
 
 ###  Tabla de Prácticas de la Materia
 

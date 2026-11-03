@@ -7,6 +7,8 @@ Autor: Victor Dorian Barrios Franco
 
 Grado y grupo: 7°B
 
+Docente: M.T.I.  Marco A. Ramírez Hernández
+
 Estado: Medio
 
 Clima: Soleado

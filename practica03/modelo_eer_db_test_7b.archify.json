@@ -6,7 +6,7 @@
     "locale": "es",
     "output": "modelo_eer_db_test_7b.html",
     "quality_profile": "standard",
-    "subtitle": "Count beside each table = rows in the SQL backup; not a live database count."
+    "subtitle": "Conteos del respaldo local. Base activa: 7,007 productos, 100 categorías (12 raíces, 9 grupos y 79 específicas) y 20,041 relaciones. sup_id_category expresa jerarquía lógica sin FK."
   },
   "layout": {
     "mode": "grid",
@@ -939,11 +939,12 @@
           "name": "last_update",
           "type": "datetime"
         }
-      ]
+      ],
+      "sublabel": "Jerarquía lógica mediante sup_id_category; sin FK declarada"
     },
     {
       "id": "tbd_products_categories",
-      "label": "tbd_products_categories 8,842",
+      "label": "tbd_products_categories 20,041",
       "tag": "Catálogo e inventario",
       "row": 7,
       "col": 1,
@@ -979,7 +980,8 @@
           "name": "last_update",
           "type": "datetime"
         }
-      ]
+      ],
+      "sublabel": "20,041 relaciones; 7,007 productos y 100 categorías"
     },
     {
       "id": "tbd_products_users_providers",

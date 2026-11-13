@@ -23,7 +23,7 @@
     "views": 25,
     "triggers": 72,
     "sumOfRowsVerified": null,
-    "rowsInBackup": 76930
+    "rowsInBackup": 88129
   },
   "tables": [
     {
@@ -4051,7 +4051,7 @@
       "name": "tbd_products_categories",
       "kind": "physical_table",
       "domain": "Catálogo e inventario",
-      "rowCount": 8842,
+      "rowCount": 20041,
       "rowCountStatus": "counted_from_backup_insert_values",
       "engine": "InnoDB",
       "characterSet": "utf8mb4",

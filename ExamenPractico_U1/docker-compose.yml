@@ -1,0 +1,68 @@
+name: examen_${STUDENT_ID}
+
+services:
+  postgres_240065:
+    image: postgres:15-alpine
+    container_name: postgres_240065
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    volumes:
+      - postgres_data_240065:/var/lib/postgresql/data
+    networks:
+      - datos_240065
+    mem_limit: 384m
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+
+  mysql_240065:
+    image: mysql:8.4
+    container_name: mysql_240065
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    ports:
+      - "${MYSQL_PORT}:3306"
+    volumes:
+      - mysql_data_240065:/var/lib/mysql
+    networks:
+      - datos_240065
+    mem_limit: 768m
+
+  pgadmin_240065:
+    image: dpage/pgadmin4
+    container_name: pgadmin_240065
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+      PGADMIN_CONFIG_SERVER_MODE: "True"
+    ports:
+      - "${PGADMIN_PORT}:80"
+    volumes:
+      - pgadmin_data_240065:/var/lib/pgadmin
+    networks:
+      - datos_240065
+    mem_limit: 512m
+    depends_on:
+      postgres_240065:
+        condition: service_healthy
+
+volumes:
+  postgres_data_240065:
+  mysql_data_240065:
+  pgadmin_data_240065:
+
+networks:
+  datos_240065:
+    driver: bridge

@@ -15,6 +15,8 @@ Clima: Soleado
 
 Fusion de la rama: ManualInstalacion_u1ep (VPS)
 
+Pensamiento: Digedio
+
 ###  Tabla de Prácticas de la Materia
 
 |No.| Nombre | Descripción | Potenciador | Estatus |

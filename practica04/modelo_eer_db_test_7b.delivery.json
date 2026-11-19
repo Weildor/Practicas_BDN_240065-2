@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "bf597bd4-b0f2-4635-9c26-c8de25622147",
+  "status": "current",
+  "command": "deliver",
+  "type": "erd",
+  "input": "C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Practica04 terminada\\Practicas_BDN_240065-2\\practica04\\modelo_eer_db_test_7b.archify.json",
+  "output": "C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Practica04 terminada\\Practicas_BDN_240065-2\\practica04\\modelo_eer_db_test_7b.html",
+  "specification": {
+    "sha256": "95ea4ecda5419743fe16eef7898d9d4e4e8e00c95c97eadd57ffada9765592ee",
+    "bytes": 37803
+  },
+  "artifact": {
+    "sha256": "e52a301f1cad0904297fb7b7d57d323a8a09c4126e95d34758324a2659f02256",
+    "bytes": 986825
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "finalize",
+  "status": "fail",
+  "type": "erd",
+  "quality": "standard",
+  "specification": {
+    "path": "C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Optativa I Bases de datos en la nube\\Correccion de la rama\\Practicas_BDN_240065-2\\practica03\\modelo_eer_db_test_7b.archify.json",
+    "sha256": "25e293af529018afb2a8459c1eb143283772288ac11ea51a4538b54a1f320810",
+    "bytes": 37384
+  },
+  "artifact": {
+    "path": "C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Optativa I Bases de datos en la nube\\Correccion de la rama\\Practicas_BDN_240065-2\\practica03\\modelo_eer_db_test_7b.html",
+    "sha256": "c53ee22972c1f4747d5775e422c49442fbf53ecf6bc5382a8f31851c76d0cbc3",
+    "bytes": 985945
+  },
+  "gates": {
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "fail"
+  },
+  "failedStage": "browser-check",
+  "diagnostics": [
+    {
+      "code": "viewer/evidence-path-conflict",
+      "severity": "error",
+      "message": "browser-check will not replace the existing unowned evidence path \"C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Optativa I Bases de datos en la nube\\Correccion de la rama\\Practicas_BDN_240065-2\\practica03\\modelo_eer_db_test_7b.browser-check.json\".",
+      "subject": {
+        "artifact": "C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Optativa I Bases de datos en la nube\\Correccion de la rama\\Practicas_BDN_240065-2\\practica03\\modelo_eer_db_test_7b.html",
+        "evidencePath": "C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Optativa I Bases de datos en la nube\\Correccion de la rama\\Practicas_BDN_240065-2\\practica03\\modelo_eer_db_test_7b.browser-check.json"
+      },
+      "evidence": {
+        "reason": {
+          "code": "ownership-artifact-mismatch"
+        }
+      },
+      "supportedFixes": [
+        "move the conflicting file aside, or choose a separate --out-dir, then rerun browser-check"
+      ]
+    }
+  ],
+  "diagnosticSummary": {
+    "total": 1,
+    "shown": 1,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Optativa I Bases de datos en la nube\\Correccion de la rama\\Practicas_BDN_240065-2\\practica03\\modelo_eer_db_test_7b.finalize.json",
+    "summaryReceipt": "C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Optativa I Bases de datos en la nube\\Correccion de la rama\\Practicas_BDN_240065-2\\practica03\\modelo_eer_db_test_7b.finalize-summary.json",
+    "browserCheckReceipt": "C:\\Users\\Victor Dorian\\OneDrive\\Documentos\\7mo B\\Optativa I Bases de datos en la nube\\Correccion de la rama\\Practicas_BDN_240065-2\\practica03\\modelo_eer_db_test_7b.browser-check.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.2.0",
+    "availableVersion": "3.2.0",
+    "releaseNotes": null,
+    "checkedAt": "2026-11-03T08:06:15.968Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 12545,
+  "browserCheck": {
+    "requested": true,
+    "ran": false
+  }
+}

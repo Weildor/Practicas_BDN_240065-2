@@ -19,6 +19,8 @@ Pensamiento: Digedio
 
 Frase celebre: Ya merito
 
+Juego: Piedra, papel o tigera
+
 ###  Tabla de Prácticas de la Materia
 
 |No.| Nombre | Descripción | Potenciador | Estatus |
